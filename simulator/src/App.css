@@ -1,0 +1,70 @@
+.simulator-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  overflow: hidden;
+}
+
+.intersection {
+  position: relative;
+  width: 90vmin; /* Scales based on smaller dimension (mobile safe) */
+  aspect-ratio: 1 / 1;
+  background-image: url("aerial-scene-intersection_1308-33191.avif");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Vehicles */
+.vehicle {
+  position: absolute;
+  width: 10%; /* Proportional to the intersection */
+  z-index: 2;
+}
+
+.car {
+  width: 8%;
+  mix-blend-mode: multiply;
+  transform: rotate(90deg);
+}
+.bus {
+  width: 12%;
+  mix-blend-mode: multiply;
+}
+.bike {
+  width: 5%;
+  transform: rotate(90deg); /* Adjust rotation as needed */
+  mix-blend-mode: multiply;
+}
+.right-car {
+  width: 8%;
+  mix-blend-mode: multiply;
+  transform: rotate(270deg);
+}
+.right-bus {
+  width: 12%;
+  mix-blend-mode: multiply;
+  transform: rotate(180deg);
+}
+.right-bike {
+  width: 5%;
+  transform: rotate(270deg); /* Adjust rotation as needed */
+  mix-blend-mode: multiply;
+}
+/* Positioning based on % of container */
+.northbound {
+  top: 0%;
+  left: 45%;
+}
+.eastbound {
+  top: 45%;
+  left: 100%;
+}
+.westbound {
+  top: 55%;
+  left: -10%;
+}
