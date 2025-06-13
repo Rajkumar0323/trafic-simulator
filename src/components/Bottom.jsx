@@ -46,7 +46,7 @@ const Bottom = ({ signal }) => {
         className="vehicle car"
         style={{
           left: `42%`,
-          bottom: `${busLeft}%`,
+          bottom: `${bikeLeft}%`,
           transform: "rotate(0deg)",
         }}
       />
@@ -56,7 +56,7 @@ const Bottom = ({ signal }) => {
         className="vehicle bus"
         style={{
           left: "36%",
-          bottom: `${bikeLeft}%`,
+          bottom: `${carLeft}%`,
           transform: "rotate(270deg)",
         }}
       />
@@ -65,7 +65,7 @@ const Bottom = ({ signal }) => {
         alt="Bike"
         className="vehicle bike"
         style={{
-          left: "42%",
+          left: "44%",
           bottom: `${carLeft}%`,
           transform: "rotate(0deg)",
         }}

@@ -47,7 +47,7 @@ const Top = ({ signal }) => {
         className="vehicle car"
         style={{
           right: `42%`,
-          top: `${busLeft}%`,
+          top: `${bikeLeft}%`,
           transform: "rotate(180deg)",
         }}
       />
