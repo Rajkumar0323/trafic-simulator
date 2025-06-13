@@ -55,16 +55,39 @@
   transform: rotate(270deg); /* Adjust rotation as needed */
   mix-blend-mode: multiply;
 }
-/* Positioning based on % of container */
-.northbound {
-  top: 0%;
-  left: 45%;
+.stop-line {
+  width: 0.5%;
+  height: 20%;
 }
-.eastbound {
-  top: 45%;
-  left: 100%;
+.left-stop-line {
+  position: absolute;
+  left: 37%;
+  top: 40%;
+  /* transform: rotate(90deg); */
+  /* transform: translateY(-50%); */
+  background-color: white;
 }
-.westbound {
-  top: 55%;
-  left: -10%;
+.right-stop-line {
+  position: absolute;
+  right: 37%;
+  top: 40%;
+  /* transform: rotate(90deg); */
+  /* transform: translateY(-50%); */
+  background-color: white;
+}
+.top-stop-line {
+  position: absolute;
+  top: 28%;
+  right: 49.5%;
+  transform: rotate(90deg);
+  /* transform: translateY(-50%); */
+  background-color: white;
+}
+.bottom-stop-line {
+  position: absolute;
+  bottom: 28%;
+  left: 50%;
+  transform: rotate(90deg);
+  /* transform: translateY(-50%); */
+  background-color: white;
 }

@@ -96,6 +96,11 @@ function App() {
             style={{ bottom: "17%", left: `16%`, transform: "rotate(270deg)" }}
           />
         )}
+
+        <div className="stop-line left-stop-line"></div>
+        <div className="stop-line right-stop-line"></div>
+        <div className="stop-line top-stop-line"></div>
+        <div className="stop-line bottom-stop-line"></div>
       </div>
     </div>
   );

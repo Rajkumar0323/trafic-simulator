@@ -13,7 +13,7 @@ const Bottom = ({ signal }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       // Stop if signal is red and vehicle near stop line
-      const nearStop = carPos.current > 33 && carPos.current < 60;
+      const nearStop = carPos.current > 30 && carPos.current < 60;
       const isRed = signal !== "bottom";
 
       if (isRed && nearStop) {
