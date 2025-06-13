@@ -12,7 +12,7 @@
   position: relative;
   width: 90vmin; /* Scales based on smaller dimension (mobile safe) */
   aspect-ratio: 1 / 1;
-  background-image: url("aerial-scene-intersection_1308-33191.avif");
+  background-image: url("aerial-scene-intersection_1308-33191.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
