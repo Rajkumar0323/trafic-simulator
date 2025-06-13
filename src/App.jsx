@@ -27,7 +27,7 @@ function App() {
       setSignal("left");
       return;
     }
-  }, 15000); // Simulate a delay for the initial load
+  }, 13000); // Simulate a delay for the initial load
   return (
     <div className="simulator-wrapper">
       <div className="intersection">
